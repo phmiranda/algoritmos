@@ -1,0 +1,10 @@
+version: "3"
+services:
+  desenvolvedor-v1:
+    build:
+      dockerfile: ./desenvolvedor.dockerfile
+      context: .
+    image: phmiranda/desenvolvedor
+    container_name: desenvolvedor-logica
+    ports:
+    - "9000:80"

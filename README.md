@@ -1,2 +1,1 @@
-# introducao
-curso de introdução a lógica de programação
+# Algoritmos e Lógica de Programação

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  desenvolvedor-v1:
+    build:
+      context: docker
+      dockerfile: docker/desenvolvedor.dockerfile
+    image_:
+    container_name: desenvolvedor-introducao
+    ports:
+    - "9000:80"
+volumes:
+  desenvolvedor-v1:
